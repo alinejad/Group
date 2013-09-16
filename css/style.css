@@ -1,0 +1,10 @@
+body{
+  background-image: url(../images/background_light.jpg);
+  background-repeat: repeat-x;
+}
+#container{
+  margin: auto;
+  width: 960px;
+  background-color: white;
+  height: auto;
+}
