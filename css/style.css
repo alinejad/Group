@@ -6,6 +6,10 @@ p{
   font-size: 12px;
 }
 
+a{
+   color: blue;
+   font-size: 12px;
+}
 #container{
   margin: auto;
   width: 960px;
@@ -22,11 +26,14 @@ p{
   left: 0px;
   width:100%;
   z-index: -1;
+  background-position:top center;
 
 }
 header{
 width: 960px;
 height: 125px;
+
+
 }
 
 header img{
@@ -73,11 +80,6 @@ float: left;
 border: 2px solid #ccc;
 margin-top:20px;
 
-a{
-   color: blue;
-   font-size: 12px;
-}
-
 }
 .clearfix{
   clear:both;
@@ -89,7 +91,7 @@ a{
   height:auto;
   padding-left:10px;
   padding-right:10px;
-  background: url(../images/background_block_slice.jpg);
+  background: url(../images/background_block_slice.jpg) repeat-x;
   background-color:#fff;
 
 }
