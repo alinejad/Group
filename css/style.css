@@ -1,5 +1,5 @@
 body{
-  background-color: #ccc;
+  background-color: #c4c0bf;
 }
 
 p{
@@ -65,6 +65,9 @@ header img{
    font-size: 10px;
 }
 
+#featured article{
+  border: 0px;
+}
 .ecard{
 float: left;
 border: 2px solid #ccc;
@@ -86,7 +89,7 @@ a{
   height:auto;
   padding-left:10px;
   padding-right:10px;
-  background-image: url(../images/background_block_slice.jpg);
+  background: url(../images/background_block_slice.jpg);
   background-color:#fff;
 
 }
@@ -108,9 +111,9 @@ article p{
 
 #sidebar{
 float:left;
- width: 255px;
+ width: 265px;
  background-color: rgba(105,105,105, .2);
- height:622px;
+ height:625px;
  padding:0px 10px 20px 15px;
 }
 
